@@ -9,7 +9,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/route2', (req,res) => {
-    res.status(200).send({msg: "Route 2"})
+    res.status(200).send({msg: "Get good"})
 })
 
 app.post('/route3', (req,res) => {
